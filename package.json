@@ -1,14 +1,24 @@
 {
   "dependencies": {
+    "@nuxt/typescript-build": "^2.1.0",
     "lodash": "^4.17.19",
-    "vue": "^2.6.11",
+    "nuxt": "^2.15.7",
     "vue-router": "^3.4.3",
     "vuex": "^3.4.0"
   },
+  "scripts": {
+    "dev": "nuxt"
+  },
   "devDependencies": {
     "@types/lodash": "^4.14.158",
+    "@nuxt/types": "^2.15.7",
+    "@nuxtjs/eslint-config-typescript": "^6.0.1",
+    "@nuxtjs/eslint-module": "^3.0.2",
     "prettier": "^2.0.5",
-    "typescript": "^3.9.7"
+    "typescript": "^3.9.7",
+    "eslint": "^7.29.0",
+    "eslint-plugin-nuxt": "^2.0.0",
+    "eslint-plugin-vue": "^7.12.1"
   },
   "vetur": {
     "tags": "./tags.json"
